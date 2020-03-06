@@ -1,4 +1,4 @@
-# ARSITS[Augmented Reality Spatial Instruction Training System]
+# ARSITS [Augmented Reality Spatial Instruction Training System]
 
 [![N|Solid](https://github.com/prasanthsasikumar/localMultiplayer/blob/master/powerdByLogo.png)](http://empathiccomputing.org/)
 
@@ -19,7 +19,7 @@ This section explains the implementation of VR set up used. We used two VR heads
 - We have used Unity 2019.3.2f1, and is not really backwards compatible due to unity HDRP. 
 
 # CREDITS
-SMRVFX https://github.com/keijiro/Akvfx
+Keijiro https://github.com/keijiro/Akvfx
 
 
 # TECHNICAL SPECIFICATIONS
