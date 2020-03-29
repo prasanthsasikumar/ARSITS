@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/AzureKinectExamples/KinectDemos/PointCloudDemo/VfxPointCloudDemo.unity
-    guid: 523b4192f5644f84b8164e19e8be58e1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

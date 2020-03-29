@@ -200,10 +200,10 @@ namespace com.rfilkov.kinect
             currentFrameNumber = 0;
 
             // flip color & depth image vertically
-            sensorData.colorImageScale = new Vector3(-1f, -1f, 1f);
-            sensorData.depthImageScale = new Vector3(-1f, -1f, 1f);
-            sensorData.infraredImageScale = new Vector3(-1f, -1f, 1f);
-            sensorData.sensorSpaceScale = new Vector3(-1f, -1f, 1f);
+            sensorData.colorImageScale = new Vector3(1f, -1f, 1f);
+            sensorData.depthImageScale = new Vector3(1f, -1f, 1f);
+            sensorData.infraredImageScale = new Vector3(1f, -1f, 1f);
+            sensorData.sensorSpaceScale = new Vector3(1f, -1f, 1f);
 
             // color camera data & intrinsics
             sensorData.colorImageFormat = TextureFormat.BGRA32;

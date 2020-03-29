@@ -69,7 +69,7 @@ namespace com.rfilkov.kinect
         protected List<KinectInterop.SensorData> sensorDatas = new List<KinectInterop.SensorData>();
 
         public bool restartPlayback = false, hasStarted=false;
-        public AudioSource audio;
+        //public AudioSource audio;
 
 
         /// <summary>
@@ -792,7 +792,7 @@ namespace com.rfilkov.kinect
                     sensorDatas.Remove(sensorDatas[2]); sensorDatas.Remove(sensorDatas[1]); sensorDatas.Remove(sensorDatas[0]);
                 }
                 StartDepthSensors();
-                audio.Play();
+                //audio.Play();
                 hasStarted = true;
             }
 
@@ -821,7 +821,6 @@ namespace com.rfilkov.kinect
                 KinectInterop.UpdateSensorTextures(sensorDatas[i], this);
             }
         }
-
 
         void OnGUI()
         {
